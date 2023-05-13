@@ -21,7 +21,7 @@
 
     <div class="container" style="display:flex;justify-content: space-between;">
         <div class="content">
-            <h style="font-size:45px;padding:10px;font-weight:bold;">Welcome to Nimbuspay Bank</h1>
+            <h1 style="font-size:45px;padding:10px;font-weight:bold;">Welcome to Nimbuspay Bank</h1>
                 <p style="font-size:24px;padding:10px;font-weight:lighter;">Your Transactions Made Easy</p>
                 <br>
                 <a class="transfer" href="customers.php">Customers</a>
