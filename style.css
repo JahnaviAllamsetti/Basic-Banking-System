@@ -57,3 +57,48 @@ thead {
     font-size: 20px;
     text-decoration: none;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+    max-width: 50%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.image {
+    flex: 1;
+    max-width: 50%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .content,
+    .image {
+        max-width: 100%;
+    }
+}
+
+.content h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 20px;
+}
